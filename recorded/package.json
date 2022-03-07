@@ -1,0 +1,15 @@
+{
+  "name": "nova_api_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node server.js",
+    "promise-race": "node --experimental-fetch --no-warnings 01-promise-race.js",
+    "abort-api": "node --experimental-fetch --no-warnings 02-abort-api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
